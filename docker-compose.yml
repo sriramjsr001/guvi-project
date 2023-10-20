@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    image: sriramjsr1997/guvi-react-app:latest
+    image: sriramjsr1997/guvi-project:latest
     ports:
       - "80:80"
