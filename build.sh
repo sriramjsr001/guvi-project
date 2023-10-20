@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE_TAG="my-nginx-app"
+IMAGE_TAG="sriramjsr1997/guvi-project"
 
 # Build the Docker image
 docker build -t "$IMAGE_TAG" .
