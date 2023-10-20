@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    image: sriramjsr1997/guvi-project:latest
+    image: sriramjsr1997/dev:latest
     ports:
       - "80:80"
