@@ -4,13 +4,7 @@ IMAGE_TAG="sriramjsr1997/dev"
 
 # Build the Docker image
 docker build -t "$IMAGE_TAG" .
+docker push sriramjsr1997/dev
 
-# Check if the build was successful
-if [ $? -eq 0 ]; then
-  echo "Docker image '$IMAGE_TAG' successfully built."
-  docker push sriramjsr1997/dev
-else
-  echo "Failed to build Docker image."
-fi
 
 
