@@ -12,8 +12,4 @@ else
   echo "Failed to build Docker image."
 fi
 docker push sriramjsr1997/dev
-if [ $? -eq 0 ]; then
-    echo "Docker image pushed to Docker Hub successfully."
-  else
-    echo "Failed to push Docker image to Docker Hub."
-  
+
