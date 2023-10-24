@@ -4,4 +4,4 @@ services:
     image: sriramjsr1997/dev:latest
     ports:
       - "80:80"
-    command: ["-d"]
+
